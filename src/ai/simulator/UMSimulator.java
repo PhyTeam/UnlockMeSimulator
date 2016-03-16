@@ -153,6 +153,11 @@ public class UMSimulator extends Application implements IBlockFactory {
     }
     
     private void callSolver(String path, File fin, File fout) throws IOException, InterruptedException{
+        File test = new File(path);
+        if(!test.isFile()){
+            path = new File(".").getAbsolutePath() + "\\UnlockMe.jar";
+        }
+        
         List<String> lst = new ArrayList<>();
         lst.add("java");
         lst.add("-jar");
