@@ -40,8 +40,8 @@ public class UnlockMe {
             is = new FileInputStream(fin);
         }
         State s = State.loadFromFile(is);
-        Searcher al = new Searcher();
-        al.path(s);
+        DFS al = new DFS(s);
+        al.Seacher(al.t);
         //long memory = Runtime.getRuntime().
         al.print();
         al.close();

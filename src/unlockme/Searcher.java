@@ -21,7 +21,7 @@ import java.util.logging.Logger;
  */
 public class Searcher {
     
-    private class Tuple{
+    protected class Tuple{
         public int key;
         public Tuple preNode = null;
         public State state;
@@ -90,7 +90,7 @@ public class Searcher {
             laststate = t;
             return true;
         }
-            
+        
         // Generate next states
         List<State> newstates = t.state.getNewState();
         newstates.stream().forEach((n) -> {
@@ -98,6 +98,7 @@ public class Searcher {
             tp.preNode = t;
             history.add(tp);
             q.offer(tp);
+            
         });
         
         if(!q.isEmpty()){
