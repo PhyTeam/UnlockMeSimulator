@@ -10,7 +10,7 @@
       -pre-init:                 called before initialization of project properties
       -post-init:                called after initialization of project properties
       -pre-compile:              called before javac compilation
-      -post-compile:             called after javac compilation
+      -post-pre-compile:         called after javac compilation
       -pre-compile-test:         called before javac compilation of JUnit tests
       -post-compile-test:        called after javac compilation of JUnit tests
       -pre-jfx-jar:              called before FX SDK specific <fx:jar> task
@@ -50,4 +50,16 @@
     nbproject/build-impl.xml and nbproject/jfx-impl.xml.
 
     -->
+    <!-- Auto copy jar file -->
+    <target name="-post-init">
+        <ant antfile="../UnlockMeSolver/build.xml" target="clean"></ant>
+        <ant antfile="build.xml" target="makeJar" inheritall="false"  dir="../UnlockMeSolver"></ant>
+        <mkdir dir="./solver"></mkdir>
+        <copy file="../UnlockMeSolver/dist/UnlockMe.jar" tofile="./solver/UnlockMe.jar"></copy>
+    </target>
+    <target name="Hello">
+        <ant antfile="../UnlockMeSolver/build.xml" target="makeJar" usenativebasedir="true"></ant>
+    </target>
+    <!-- Generate executable file -->
+    
 </project>
