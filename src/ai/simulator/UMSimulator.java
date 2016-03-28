@@ -75,7 +75,7 @@ public class UMSimulator extends Application implements IBlockFactory {
     private Slider slider;
     
     private final String[] algorithmList = 
-        new String[]{"Breadth first seach", "Depth first search", "Hill climb search"};
+        new String[]{"Breadth first seach", "Depth first search", "A-star"};
     
     private void init(Stage primaryStage) {
         // Curreent path
@@ -296,7 +296,7 @@ public class UMSimulator extends Application implements IBlockFactory {
         }
         @Override
         protected Integer call() throws Exception {
-            final String[] alg = new String[]{"bfs", "dfs","chs"};
+            final String[] alg = new String[]{"bfs", "dfs","as"};
             String algorithm = alg[0];
             for (int i = 0; i < alg.length; i++) {
                 if(algorithmName.equalsIgnoreCase(algorithmList[i])){

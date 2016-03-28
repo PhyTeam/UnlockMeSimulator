@@ -1,9 +1,1 @@
--1 0 1 
-2 -2 0 
-3 0 -2 
-4 0 1 
-1 3 0 
--1 0 3 
-130
-Used memory is bytes: 813944
-Used memory is megabytes: 0
+END.

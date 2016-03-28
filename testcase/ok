@@ -1,0 +1,100 @@
+Test: 6.txt
+LOG: found 9243
+LOG: found 1048
+LOG: found 4473
+74 | 7 | 64
+Test: inter2.txt
+LOG: found 4402
+LOG: found 931
+LOG: found 659
+22 | 5 | 15
+Test: expert4.txt
+LOG: found 61121
+LOG: found 61029
+LOG: found 1515
+167 | 121 | 25
+Test: 5.txt
+LOG: found 76707
+LOG: found 34013
+LOG: found 22521
+118 | 40 | 198
+Test: 2.txt
+LOG: found 49829
+LOG: found 8576
+LOG: found 36348
+63 | 33 | 189
+Test: adv1.txt
+LOG: found 25669
+LOG: found 9062
+LOG: found 6832
+27 | 10 | 30
+Test: expert3.txt
+LOG: found 26428
+LOG: found 4359
+LOG: found 4211
+36 | 6 | 26
+Test: inter1.txt
+LOG: found 37451
+LOG: found 6781
+LOG: found 18953
+73 | 11 | 123
+Test: beginer1.txt
+LOG: found 17862
+LOG: found 998
+LOG: found 532
+18 | 1 | 1
+Test: expert1.txt
+LOG: found 33383
+LOG: found 2282
+LOG: found 1542
+40 | 3 | 6
+Test: 7.txt
+LOG: found 34700
+LOG: found 14889
+LOG: found 11954
+49 | 23 | 94
+Test: test1.txt
+LOG: found 24511
+LOG: found 6828
+LOG: found 9114
+38 | 10 | 43
+Test: 1.txt
+Not
+Not
+Not
+52 | 30 | 141
+Test: 4.txt
+LOG: found 18642
+LOG: found 6171
+LOG: found 9021
+19 | 6 | 34
+Test: 3.txt
+LOG: found 8684
+LOG: found 1735
+LOG: found 2021
+9 | 2 | 5
+Test: test.txt
+Not
+Not
+Not
+18 | 19 | 42
+Test: test2.txt
+LOG: found 12368
+LOG: found 569
+LOG: found 612
+10 | 1 | 1
+Test: expert2.txt
+LOG: found 10177
+LOG: found 6946
+LOG: found 5970
+11 | 8 | 19
+Test: beginner2.txt
+LOG: found 2424
+LOG: found 430
+LOG: found 97
+3 | 0 | 0
+Test: adv2.txt
+LOG: found 34644
+LOG: found 4895
+LOG: found 1199
+37 | 5 | 4
